@@ -12,35 +12,35 @@ public class BinaryTreeDemo {
 		root.setRight(node3);
 		node3.setRight(node4);
 		node3.setLeft(node5);
-//		System.out.println("preOrder: ");
-//		root.preOrder();
-//		System.out.println("infixOrder: ");
-//		root.infixOrder();
+		System.out.println("preOrder: ");
+		root.preOrder();
+		System.out.println("infixOrder: ");
+		root.infixOrder();
 //		System.out.println("postOrder: ");
 //		root.postOrder();
-		System.out.print("preSearch: ");
-		BinaryTreeNode resNode = root.preSearch(5);
-		if (resNode == null) {
-			System.out.println("没找到对应的节点");
-		}else{
-			System.out.println("找到了no=[" + resNode.getNo() + "]的节点");
-		}
-
-		System.out.print("infixSearch: ");
-		BinaryTreeNode resNode1 = root.infixSearch(5);
-		if (resNode1 == null) {
-			System.out.println("没找到对应的节点");
-		}else{
-			System.out.println("找到了no=[" + resNode1.getNo() + "]的节点");
-		}
-
-		System.out.print("postSearch: ");
-		BinaryTreeNode resNode2 = root.postSearch(15);
-		if (resNode2 == null) {
-			System.out.println("没找到对应的节点");
-		}else{
-			System.out.println("找到了no=[" + resNode2.getNo() + "]的节点");
-		}
+//		System.out.print("preSearch: ");
+//		BinaryTreeNode resNode = root.preSearch(5);
+//		if (resNode == null) {
+//			System.out.println("没找到对应的节点");
+//		}else{
+//			System.out.println("找到了no=[" + resNode.getNo() + "]的节点");
+//		}
+//
+//		System.out.print("infixSearch: ");
+//		BinaryTreeNode resNode1 = root.infixSearch(5);
+//		if (resNode1 == null) {
+//			System.out.println("没找到对应的节点");
+//		}else{
+//			System.out.println("找到了no=[" + resNode1.getNo() + "]的节点");
+//		}
+//
+//		System.out.print("postSearch: ");
+//		BinaryTreeNode resNode2 = root.postSearch(15);
+//		if (resNode2 == null) {
+//			System.out.println("没找到对应的节点");
+//		}else{
+//			System.out.println("找到了no=[" + resNode2.getNo() + "]的节点");
+//		}
 	}
 }
 
