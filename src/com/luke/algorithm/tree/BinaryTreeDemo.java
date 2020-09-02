@@ -14,8 +14,14 @@ public class BinaryTreeDemo {
 		node3.setLeft(node5);
 		System.out.println("preOrder: ");
 		root.preOrder();
-		System.out.println("infixOrder: ");
-		root.infixOrder();
+//		root.setRight(null);
+		node3 = null;
+		System.gc();
+		System.out.println("preOrder: ");
+		root.preOrder();
+//		System.out.println("node3.left=" + node3.left);
+//		System.out.println("infixOrder: ");
+//		root.infixOrder();
 //		System.out.println("postOrder: ");
 //		root.postOrder();
 //		System.out.print("preSearch: ");
